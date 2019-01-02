@@ -22,6 +22,12 @@
 .carousel.carousel-full-nagivation .right {
     cursor: url("../../img/arrow-right.png"), url("../../img/arrow-right.cur"), default !important;
 }
+.iconH{
+    transition: .5s;
+}
+.iconH:hover {
+    color: #5982ff;
+}
 #hey{
     font-size: 48px;
     margin-top: -35px;
@@ -14379,7 +14385,8 @@ textarea {
 }
 
 .alert.alert-info {
-    background-color: #00cae3;
+    background-color: #5982ff;
+/*    background-color: #00cae3;*/
     color: #ffffff;
 }
 
@@ -17521,7 +17528,14 @@ footer .pull-center {
     font-weight: 400;
     padding: 40px;
     margin-top: 50px;
+    transition: .5s;
+
 }
+#res:hover{
+    background-color: #4f76ea;
+/*    background-color: #537bf4;*/
+}
+
 .skillRow{
     border: 1px solid grey;
     border-radius: 5px;
